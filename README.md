@@ -41,6 +41,10 @@ task :clean do
 end
 ```
 
+Output Example:
+![Output Example](http://i.imgur.com/UJAwb6t.png)
+
+
 ## Contributing
 
 1. Fork it
