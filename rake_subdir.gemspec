@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["utkin.oleg@me.com"]
   spec.description   = %q{Rucursive gem invocation}
   spec.summary       = %q{Rucursive gem invocation, so that chained execution of Rakefiles is possible. Much like with "make -C".}
-  spec.homepage      = ""
+  spec.homepage      = "http://github.com/AkaiBureido/rake_subdir"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
