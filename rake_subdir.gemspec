@@ -23,4 +23,5 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "eventmachine"
   spec.add_runtime_dependency "em_pessimistic"
+  spec.add_runtime_dependency "colorize"
 end
