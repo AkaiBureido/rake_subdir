@@ -42,6 +42,7 @@ end
 ```
 
 Output Example:
+
 ![Output Example](http://i.imgur.com/UJAwb6t.png)
 
 
