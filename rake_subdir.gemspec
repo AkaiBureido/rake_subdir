@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'subrakr/version'
+require 'rake_subdir/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "subrakr"
-  spec.version       = Subrakr::VERSION
-  spec.authors       = ["AkaiBureido"]
+  spec.name          = "rake_subdir"
+  spec.version       = RakeSubdir::VERSION
+  spec.authors       = ["Oleg Utkin"]
   spec.email         = ["utkin.oleg@me.com"]
   spec.description   = %q{Rucursive gem invocation}
-  spec.summary       = %q{Rucursive gem invocation}
+  spec.summary       = %q{Rucursive gem invocation, so that chained execution of Rakefiles is possible. Much like with "make -C".}
   spec.homepage      = ""
   spec.license       = "MIT"
 

@@ -1,4 +1,4 @@
-require 'subrakr/version'
+require 'rake_subdir/version'
 require 'em_pessimistic'
 require 'eventmachine'
 
